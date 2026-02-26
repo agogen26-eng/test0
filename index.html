@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="ja" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ビストロ サン・セリフ | 西麻生の隠れ家フレンチ</title>
+  <meta name="description" content="西麻生の隠れ家フレンチ「サン・セリフ」。木の温もりを感じる空間で、名物『シェフの気まぐれすぎるキッシュ』や厳選ワインをお楽しみください。デートや自分へのご褒美に。">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            wood: '#fdf8f5',
+            primary: '#8b4513',
+            secondary: '#a0522d',
+            accent: '#d2691e',
+          },
+          fontFamily: {
+            serif: ['"Noto Serif JP"', 'serif'],
+            sans: ['"Helvetica Neue"', 'Arial', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    body { font-family: 'Helvetica Neue', Arial, sans-serif; }
+    h1, h2, h3, .serif-font { font-family: '"Noto Serif JP"', serif; }
+  </style>
+</head>
+<body class="bg-wood text-gray-800">
+
+  <nav class="fixed top-0 w-full bg-white/90 backdrop-blur-md shadow-md z-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center h-16">
+        <div class="flex-shrink-0 flex items-center">
+          <a href="#" class="text-2xl font-bold text-primary serif-font">Bistro Sans-serif</a>
+        </div>
+        <div class="hidden md:flex space-x-8 items-center">
+          <a href="#about" class="text-gray-700 hover:text-primary transition">コンセプト</a>
+          <a href="#menu" class="text-gray-700 hover:text-primary transition">名物キッシュ</a>
+          <a href="#scene" class="text-gray-700 hover:text-primary transition">利用シーン</a>
+          <a href="#info" class="text-gray-700 hover:text-primary transition">店舗情報</a>
+          <div class="text-sm text-right">
+            <p class="text-gray-500">ご予約・お問い合わせ</p>
+            <a href="tel:0481234567" class="font-bold text-lg text-primary hover:text-accent">048-123-4567</a>
+          </div>
+          <a href="#info" class="bg-primary text-white px-6 py-2 rounded-full font-bold hover:bg-secondary transition shadow-lg">WEB予約はこちら</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <header class="relative pt-16 h-screen min-h-[600px] flex items-center justify-center overflow-hidden">
+    <img src="https://picsum.photos/id/1080/1920/1080" alt="ビストロ サン・セリフ 店内と料理" class="absolute inset-0 w-full h-full object-cover opacity-60">
+    <div class="absolute inset-0 bg-black/30"></div>
+    <div class="relative z-10 text-center px-4 max-w-4xl mx-auto">
+      <h1 class="text-4xl md:text-6xl font-bold text-white mb-6 drop-shadow-lg serif-font leading-tight">
+        予測不能な美味しさと、<br>木の温もりに包まれて。
+      </h1>
+      <p class="text-lg md:text-2xl text-white mb-10 drop-shadow-md">西麻生の小さな隠れ家フレンチ「サン・セリフ」</p>
+      <a href="#info" class="inline-block bg-accent text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-primary transition shadow-xl transform hover:scale-105">今すぐ席を予約する</a>
+    </div>
+  </header>
+
+  <main>
+    <section id="menu" class="py-20 px-4 max-w-6xl mx-auto">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold text-primary mb-4 serif-font">名物「シェフの気まぐれすぎるキッシュ」</h2>
+        <p class="text-gray-600">何が入っているかは、その日のお楽しみ。</p>
+      </div>
+      
+      <div class="flex flex-col md:flex-row items-center gap-12">
+        <div class="w-full md:w-1/2">
+          <img src="https://picsum.photos/id/429/800/600" alt="シェフの気まぐれすぎるキッシュ" class="rounded-xl shadow-2xl w-full h-auto object-cover">
+        </div>
+        <div class="w-full md:w-1/2 space-y-6">
+          <h3 class="text-2xl font-bold text-gray-800 border-b-2 border-accent pb-2 inline-block">一期一会の味わい</h3>
+          <p class="text-gray-700 leading-relaxed text-lg">
+            当店の看板メニューは、決まったレシピがありません。その日冷蔵庫にある一番おいしい食材、市場で見つけた旬の野菜や新鮮なお肉を、シェフの直感でたっぷりと詰め込みます。<br><br>
+            サクサクのパイ生地と、濃厚なアパレイユ（卵液）。ひとくち食べるごとに新しい発見がある、まさに「予測不能」なキッシュです。訪れるたびに違う表情を見せる一皿を、ぜひワインと共にお楽しみください。
+          </p>
+          <p class="text-2xl font-bold text-accent">1ピース: 880円（税込）</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="scene" class="py-20 bg-white">
+      <div class="max-w-6xl mx-auto px-4">
+        <div class="text-center mb-16">
+          <h2 class="text-3xl md:text-4xl font-bold text-primary mb-4 serif-font">心満たされる、特別な時間を</h2>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+          <div class="bg-wood rounded-xl overflow-hidden shadow-lg transition hover:shadow-xl">
+            <img src="https://picsum.photos/id/1060/600/400" alt="デートでのご利用" class="w-full h-64 object-cover">
+            <div class="p-8">
+              <h3 class="text-xl font-bold text-primary mb-3">大切な人とのデートに</h3>
+              <p class="text-gray-700 leading-relaxed">
+                木の温もりを感じる落ち着いた店内は、二人の距離をぐっと縮めてくれます。気取らない雰囲気のなかで、美味しいフレンチと会話をお楽しみください。
+              </p>
+            </div>
+          </div>
+
+          <div class="bg-wood rounded-xl overflow-hidden shadow-lg transition hover:shadow-xl">
+            <img src="https://picsum.photos/id/493/600/400" alt="自分へのご褒美" class="w-full h-64 object-cover">
+            <div class="p-8">
+              <h3 class="text-xl font-bold text-primary mb-3">頑張った自分へのご褒美に</h3>
+              <p class="text-gray-700 leading-relaxed">
+                お一人様も大歓迎です。カウンター席でシェフの調理風景を眺めながら、お好きなキッシュとグラスワインで、ゆったりとした夜をお過ごしいただけます。
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-20 px-4 max-w-6xl mx-auto">
+      <div class="flex flex-col md:flex-row-reverse items-center gap-12">
+        <div class="w-full md:w-1/2">
+          <img src="https://picsum.photos/id/292/800/600" alt="厳選ワイン" class="rounded-xl shadow-2xl w-full h-auto object-cover">
+        </div>
+        <div class="w-full md:w-1/2 space-y-6">
+          <h2 class="text-3xl md:text-4xl font-bold text-primary mb-4 serif-font">料理に寄り添う、こだわりの一杯</h2>
+          <p class="text-gray-700 leading-relaxed text-lg">
+            当店のフレンチに最も合うワインを、世界中から厳選して取り揃えております。ワイン選びに迷った際は、その日のキッシュの具材に合わせてスタッフが最高の一杯をご提案いたします。<br>
+            こぢんまりとしたアットホームな空間で、肩ひじ張らずに「美味しいひととき」をご堪能ください。
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="info" class="py-20 bg-white">
+      <div class="max-w-4xl mx-auto px-4">
+        <div class="text-center mb-12">
+          <h2 class="text-3xl md:text-4xl font-bold text-primary mb-4 serif-font">店舗情報・アクセス</h2>
+        </div>
+        <div class="bg-wood p-8 md:p-12 rounded-2xl shadow-md border border-gray-200">
+          <div class="space-y-6 text-gray-700">
+            <div class="flex flex-col md:flex-row border-b border-gray-300 pb-4">
+              <span class="font-bold w-48 text-primary">店名</span>
+              <span>ビストロ サン・セリフ</span>
+            </div>
+            <div class="flex flex-col md:flex-row border-b border-gray-300 pb-4">
+              <span class="font-bold w-48 text-primary">ご予約・お問い合わせ</span>
+              <div>
+                <a href="tel:0481234567" class="text-xl font-bold text-accent hover:underline">048-123-4567</a>
+                <p class="text-sm mt-1">※「ホームページを見た」とお伝えいただけるとスムーズです。</p>
+              </div>
+            </div>
+            <div class="flex flex-col md:flex-row border-b border-gray-300 pb-4">
+              <span class="font-bold w-48 text-primary">住所</span>
+              <span>〒341-0000 埼玉県三郷市中央X-X-X</span>
+            </div>
+            <div class="flex flex-col md:flex-row border-b border-gray-300 pb-4">
+              <span class="font-bold w-48 text-primary">営業時間</span>
+              <span>17:30 ～ 23:00 (L.O. 22:00)</span>
+            </div>
+            <div class="flex flex-col md:flex-row border-b border-gray-300 pb-4">
+              <span class="font-bold w-48 text-primary">定休日</span>
+              <span>月曜日・火曜日</span>
+            </div>
+          </div>
+          <div class="mt-8 text-center">
+             <a href="https://www.hotpepper.jp/strXXXXXXXX/" target="_blank" rel="noopener noreferrer" class="inline-block bg-primary text-white px-10 py-4 rounded-full font-bold text-lg hover:bg-secondary transition shadow-xl w-full md:w-auto">WEBで予約する</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-gray-900 text-white py-12 text-center">
+    <div class="max-w-6xl mx-auto px-4">
+      <p class="text-2xl font-bold serif-font mb-6">Bistro Sans-serif</p>
+      <p class="mb-8">西麻生で味わう、木の温もりと予測不能なフレンチ。</p>
+      <p class="text-sm text-gray-500">&copy; 2026 Bistro Sans-serif. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+  </script>
+</body>
+</html>
